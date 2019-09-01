@@ -2,8 +2,12 @@ package com.example.demo.model.requests;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * The Class ModifyCartRequest.
+ *
+ * @author Lohitaksh
+ */
 public class ModifyCartRequest {
-	
 	@JsonProperty
 	private String username;
 	
@@ -36,7 +40,4 @@ public class ModifyCartRequest {
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
-	
-	
-
 }
