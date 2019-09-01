@@ -2,18 +2,8 @@ package com.example.demo.model.persistence.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.demo.model.persistence.Customer;
+import com.example.demo.model.persistence.User;
 
-/**
- * The Interface UserRepository.
- */
-public interface UserRepository extends JpaRepository<Customer, Long> {
-	
-	/**
-	 * Find by username.
-	 *
-	 * @param username the username
-	 * @return the customer
-	 */
-	Customer findByUsername(String username);
+public interface UserRepository extends JpaRepository<User, Long> {
+	User findByUsername(String username);
 }
