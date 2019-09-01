@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.model.persistence.Item;
 import com.example.demo.model.persistence.repositories.ItemRepository;
 
+/**
+ * The Class ItemController.
+ *
+ * @author Lohitaksh
+ */
 @RestController
 @RequestMapping("/api/item")
 public class ItemController {
